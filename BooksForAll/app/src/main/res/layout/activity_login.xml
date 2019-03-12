@@ -65,6 +65,17 @@
             </android.support.design.widget.TextInputLayout>
 
             <Button
+                android:id="@+id/forgot_password"
+                style="?android:textAppearanceSmall"
+                android:background="white"
+                android:layout_width="match_parent"
+                android:layout_height="18"
+                android:gravity="left"
+                android:layout_marginTop="1dp"
+                android:text="@string/forgot_password"
+                android:textStyle="bold" />
+
+            <Button
                 android:id="@+id/email_sign_in_button"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
@@ -78,8 +89,8 @@
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:la  ``  yout_marginTop="16dp"
-                android:text="@string/action_sign_in"
+                android:layout_marginTop="8dp"
+                android:text="Register"
                 android:textStyle="bold" />
 
         </LinearLayout>
